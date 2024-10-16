@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+body.Partylobby{
+    background-color: darkslategrey;
+}
+body.Party{
+    background-color: red;
+    animation-name: Rainbow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+   
+}
+@keyframes Rainbow{
+    0%   {background-color:red;}
+    20% {background-color:orange;}
+    40%  {background-color:yellow;}
+    60%  {background-color:green;}
+    80%  {background-color:blue;}
+    100% {background-color:purple;}
+}
