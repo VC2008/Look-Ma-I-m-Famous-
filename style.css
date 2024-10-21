@@ -1,13 +1,23 @@
 body{
     text-align: center;
+    background-color: black;
 }
+
+
+body.index{
+    color: aliceblue;
+    margin: 25px 25px 25px 25px;
+}
+
+
+
 body.Partylobby{
     background-color: darkslategrey;
 }
 body.Party{
     background-color: red;
     animation-name: Rainbow;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 div.square{
@@ -27,7 +37,7 @@ div.skew{
     background-color: yellow;
     position: relative;
     animation-name: skew;
-    animation-duration: 1s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     margin: 25px 50px 75px 100px;
 }
